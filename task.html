@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Nunito Sans', sans-serif;
+            }
+        body{
+            background-color: #2a2622;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            margin-top: 10%;
+        }
+        .cards{
+            width:200px;
+            height: 200px;
+            background-color: #201f1d;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width:100px;
+            height: 100px;
+            background-color: #141413;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: azure;
+        }
+        .head{
+            color: aliceblue;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        .card img{
+            width:80px;
+            height: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            Tasks
+        </div>
+        <div class="cards">
+            <div class="card" onclick="document.location='src/index.html'">
+                <!-- <a href="">Press This</a> -->
+                <img src="https://cdn-icons-png.flaticon.com/512/4455/4455586.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
